@@ -59,3 +59,12 @@ for c in range(0, 6, 2):
 	print('Oi');
 print('FIM\n');
 
+
+
+sexo = 'M';
+if sexo == 'M' or sexo =='m':
+	print("Olha só como o usuário pode digitar 'M' ou 'm' para o sexo Masculino ");
+
+sexo = 'm';
+if sexo in 'Mm':
+	print("Olha só como o usuário pode digitar 'M' ou 'm' para o sexo Masculino ");
