@@ -92,8 +92,18 @@ print('\nFAZENDO JUNÇÃO\n');
 print('-'.join(frase));
 print('-'.join(frase.split()));
 
-print('\nRepare abaixo o uso das aspas duplas 3 vezes'.upper());
-print("""Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac erat semper, dictum ante vitae, facilisis enim. Nulla vitae massa blandit, feugiat arcu ut, tincidunt nulla. Duis quis eleifend leo. Nullam in pretium ligula, ac finibus nunc. Curabitur leo nisi, lobortis sit amet ipsum vel, finibus tincidunt orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent sollicitudin magna elementum ligula dignissim, vel dapibus quam tristique.\n""");
+print('\nRepare abaixo o uso das aspas 3 vezes'.upper());
+print("""Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Suspendisse ac erat semper, dictum ante vitae, facilisis enim. Nulla vitae massa blandit, feugiat arcu ut, tincidunt nulla. Duis quis eleifend leo.
+Nullam in pretium ligula, ac finibus nunc. Curabitur leo nisi, lobortis sit amet ipsum vel, finibus tincidunt orci.
+Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+Praesent sollicitudin magna elementum ligula dignissim, vel dapibus quam tristique.\n""");
+
+print('''Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Suspendisse ac erat semper, dictum ante vitae, facilisis enim. Nulla vitae massa blandit, feugiat arcu ut, tincidunt nulla. Duis quis eleifend leo.
+Nullam in pretium ligula, ac finibus nunc. Curabitur leo nisi, lobortis sit amet ipsum vel, finibus tincidunt orci.
+Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+Praesent sollicitudin magna elementum ligula dignissim, vel dapibus quam tristique.\n''');
 
 print(frase.replace('Python', 'Android'));
 print(frase);
