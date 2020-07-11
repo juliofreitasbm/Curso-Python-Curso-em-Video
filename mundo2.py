@@ -68,3 +68,28 @@ if sexo == 'M' or sexo =='m':
 sexo = 'm';
 if sexo in 'Mm':
 	print("Olha só como o usuário pode digitar 'M' ou 'm' para o sexo Masculino ");
+
+'''Olha só, esse é um comentário
+de multiplas linhas
+Muito legal!'''
+
+n = int(input('\nDigite um número para calcular o Fatorial: '));
+c = n;
+fatorial = 1;
+
+while c > 0:
+	print('{}'.format(c), end='');
+	print(' x ' if c > 1 else ' = ', end='');
+	fatorial *= c;
+	c -= 1;
+
+print('{}'.format(fatorial))
+
+nome = 'José';
+idade = 24;
+
+print(f"\nVeja nessa fstring que o {nome} tem {idade} anos");
+
+
+var_a = var_b = var_c = 0;
+#Olha que legal acima eu criando e iniciando um monte de variáveis simultaneamente
