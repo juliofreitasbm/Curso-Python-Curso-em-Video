@@ -2,6 +2,7 @@ lanche = ('Hamburguer', 'Suco', 'Pizza', 'Pudim', 'Batata Frita');
 
 print(lanche[2]);
 print(lanche[0:2]);
+print(lanche[::-1]);
 print(f'{len(lanche)}\n');
 
 for comida in lanche:

@@ -37,7 +37,7 @@ print('Observe como {:.3f} só tem 3 casas decimais'.format(8/3))
 print('Observe como {:2} foi alinhado com o número de baixo como se tivessem 2 dígitos'.format(4))
 print('Observe como {:2} foi alinhado com o número de cima mesmo tendo 2 dígitos\n'.format(10))
 print('Isso está escrito em um print', end='')
-print("e isso está escrito em outro, mas eles estão na mesma linha porque utilizei o end=''")
+print(" e isso está escrito em outro, mas eles estão na mesma linha porque utilizei o end=''")
 print("Isso está escrito em um print \ne isso está escrito no mesmo print, mas estão separados por causa do '\ n'\n")
 
 print('O número {} arredondado para cima fica {}, para baixo fica {} e truncado fica {}'.format(5.4, math.ceil(5.4), math.floor(5.4), math.trunc(5.4)))
@@ -78,9 +78,9 @@ print(frase.capitalize());
 print(frase.title());
 
 frase2 = '   Aprenda Python  ';
-print(frase.strip(frase2));
-print(frase.rstrip(frase2));
-print(frase.lstrip(frase2));
+print(frase2.strip());
+print(frase2.rstrip());
+print(frase2.lstrip());
 
 print('\nFAZENDO DIVISÃO\n');
 
@@ -105,6 +105,7 @@ Nullam in pretium ligula, ac finibus nunc. Curabitur leo nisi, lobortis sit amet
 Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 Praesent sollicitudin magna elementum ligula dignissim, vel dapibus quam tristique.\n''');
 
+print(frase);
 print(frase.replace('Python', 'Android'));
 print(frase);
 frase = frase.replace('Python', 'Android');
@@ -113,9 +114,9 @@ print(frase + '\n');
 if nome == 'julio':
 	print("'{}'! Que nome lindo você tem!".format(nome));
 else:
-	print("Nossa! '{}'é um nome bem estranho!".format(nome));
+	print("Nossa! '{}' é um nome bem estranho!".format(nome));
 
-print('A data de hoje é {}/{}/{}'.format(datetime.date.today().day, datetime.date.today().month, datetime.date.today().year));
+print('A data de hoje é {}/{:0>2}/{}'.format(datetime.date.today().day, datetime.date.today().month, datetime.date.today().year));
 print('A data de hoje é {}\n'.format(datetime.date.today()));
 
 print('\33[1;31;43mCores em python no terminal\033[m')
