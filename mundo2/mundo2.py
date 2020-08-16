@@ -4,7 +4,7 @@ if nome.upper() == 'JULIO':
 	print('Que nome bonito!');
 elif nome.upper() == 'PEDRO' or nome.upper() == 'MARIA' or nome.upper() == 'PAULO':
 	print('Seu nome é bem popular no Brasil!');
-elif nome.upper() in 'ANA CLÁUDIA JÉSSIA JULIANA':
+elif nome.upper() in 'ANA CLÁUDIA JÉSSICA JULIANA':
 	print('Belo nome feminino!');
 else:
 	print('Seu nome é bem interessante!');
@@ -72,6 +72,10 @@ if sexo in 'Mm':
 '''Olha só, esse é um comentário
 de multiplas linhas
 Muito legal!'''
+
+""" Esse também é um comentário 
+de multiplas linhas
+Muito interessante!"""
 
 n = int(input('\nDigite um número para calcular o Fatorial: '));
 c = n;
